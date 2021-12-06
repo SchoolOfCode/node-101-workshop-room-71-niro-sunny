@@ -1,30 +1,27 @@
-let myCollection = [
-    {
-      name: "School of Code mug",
-      count: 1,
-      whatILike: "It has my cute pixel character on it!"
-    },
-    {
-      name: "School of Code hat",
-      count: 2,
-      whatILike: "An often overlooked fashion accessory"
-    },
-    {
-      name: "School of Code pillow",
-      count: 1,
-      whatILike: "Eat. Sleep. Code. Repeat :)"
-    }
-  ];
+import myCollection from "./collection";
+
+
 
 //   console.log(myCollection);
 
 
   function describeItem (item) {
       if (item.count === 1) {
-        console.log("I have a " + myCollection.name + "here's what i like about it: " + myCollection.whatILike)
+        console.log("I have a " + item.name + ". here's what i like about it: " + item.whatILike)
       } else if (item.count === 2){
-      console.log("I have " + myCollection.count + myCollection.name + "s. here's what i like about it: " + myCollection.whatILike)
+      console.log("I have " + item.count + " " + item.name + "s. here's what i like about it: " + item.whatILike)
       }
   }
 
-  describeItem(myCollection[0]);
+  // describeItem(myCollection[0]);
+
+  function describeCollection(arr) {
+    for(let i = 0; i < arr.length; i++){
+      describeItem(arr[i]);
+    }
+    return;
+  }
+
+  describeCollection(myCollection)
+  // looping through, output is not an array > forEach()
+  //it should call the function describeItem.
