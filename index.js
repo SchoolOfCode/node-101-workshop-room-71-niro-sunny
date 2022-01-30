@@ -1,9 +1,6 @@
-import myCollection from "./collection";
-
-
+import myCollection from "./collection.js";
 
 //   console.log(myCollection);
-
 
   function describeItem (item) {
       if (item.count === 1) {

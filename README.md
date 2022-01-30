@@ -5,7 +5,7 @@ Node JS gives us the power to take JavaScript out of the browser - this means we
 
 Let's try it out now by making a simple Node app. Everyone has something they collect, no matter how mundane or kooky. As fun as it to talk about our collection, we're busy people! Let's make an app that automates talking about all the nice things in our collection for us in a cool, colorful way.
 
-## Part 1: Checking your setup
+## ✅ Part 1: Checking your setup
 
 First of all, let's check our tools are set up correctly. Open your terminal and enter the following code.
 
@@ -25,7 +25,7 @@ You should see some information about the versions of both Node and npm. If you 
 
 If you did see the version numbers, now it's time to play around in Node. In your terminal, enter `node` as the command. You should see a prompt appear - this is your NodeJS console. Try typing in some JavaScript - it is a REPL which executes the JavaScript for you.
 
-## Part 2: Setting up and running files with Node
+## ✅ Part 2: Setting up and running files with Node
 
 👉 2a. Turn the folder into a node package by using the `npm init` command and answering the questions (or using `npm init -y` if you want to be lazy). This should create you a package.json file automatically. Have a look at the file and see what's there - Google anything if you are not quite sure of what it is there for.
 
@@ -70,7 +70,7 @@ Call your function below where you've defined it, handing in the `myCollection` 
 
 Run the file again to see the output and check that it outputs the correct message for each item in your collection (i.e. each object in your `myCollection` array).
 
-## Part 3: Exporting and importing
+## ✅ Part 3: Exporting and importing
 
 Now let's neaten things up by moving the `myCollection` array to its own file. With Node's power to export and import, everything doesn't have to all be in one file, which makes for cleaner, more readable code.
 
@@ -86,7 +86,7 @@ Remember that you can check Google if you can't remember the syntax, but we are 
 
 Use Node to run the `index.js` file again just to check that your console.logs are still coming through correctly!
 
-## Part 4: NPM and Node packages
+## ✅ Part 4: NPM and Node packages
 
 Now let's bring in the power of NPM (Node Package Manager), a platform where people publish Node packages, which are bundles of software that you can use NPM to import into and use in your own projects. We'll use the `chalk` module to make our console.log messages a little more snazzy! 💅🌈✨
 
@@ -100,7 +100,7 @@ Now let's bring in the power of NPM (Node Package Manager), a platform where peo
 - Make the count of each item in your collection yellow
 - Make what you like about each item in your collection green
 
-## Bonus
+## ✅ Bonus
 
 🌟 Dig a bit deeper into the `chalk` module's docs and jazz up your console.logs even further, including making text bold and adding background colors as well.
 
